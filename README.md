@@ -2,6 +2,9 @@
 
 A feature-rich WhatsApp clone enhanced with AI capabilities, integrating **GPT** for smart replies and **DALL-E 3** for AI-generated images.  
 
+## **Live Demo**  
+🔗 **[Try ChatterBox Live](https://chatter-box-seven-delta.vercel.app/)**
+
 ## **Features**  
 ✅ **Real-time Chat** – Instant messaging with a sleek UI.  
 ✅ **AI-Powered Responses** – GPT-based smart replies.  
