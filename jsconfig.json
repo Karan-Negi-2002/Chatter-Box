@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    /* Specify library files to include */
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    /* Allow JavaScript files to be included in the project */
+    "allowJs": true,
+
+    /* Skip type checking of declaration files */
+    "skipLibCheck": true,
+
+    /* Disable emitting JavaScript files */
+    "noEmit": true,
+
+    /* Enable ES module interop for CommonJS compatibility */
+    "esModuleInterop": true,
+
+    /* Specify module code generation */
+    "module": "esnext",
+
+    /* Specify module resolution strategy */
+    "moduleResolution": "bundler",
+
+    /* Allow importing JSON modules */
+    "resolveJsonModule": true,
+
+    /* Enable JSX support with "preserve" mode */
+    "jsx": "preserve",
+
+    /* Enable incremental compilation (if supported) */
+    "incremental": true,
+
+    /* Define path aliases for imports */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  /* Include these files in the project */
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx", ".next/types/**/*.js"],
+
+  /* Exclude these files from the project */
+  "exclude": ["node_modules"]
+}

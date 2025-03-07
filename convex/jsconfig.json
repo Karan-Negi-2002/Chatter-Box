@@ -1,0 +1,23 @@
+{
+  /* This JavaScript project config describes the environment that
+   * Convex functions run in and is used for IntelliSense and tooling.
+   * You can modify it, but some settings are required to use Convex.
+   */
+  "compilerOptions": {
+    /* These settings are not required by Convex and can be modified. */
+    "allowJs": true,
+    "checkJs": true, // Enable type checking for JavaScript files
+
+    /* These compiler options are required by Convex */
+    "target": "ESNext", // Specify ECMAScript target version
+    "lib": ["ES2021", "dom"], // Specify library files to include
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports
+    "module": "ESNext", // Specify module code generation
+    "moduleResolution": "Node", // Specify module resolution strategy
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "noEmit": true // Disable emitting JavaScript files
+  },
+  "include": ["./**/*"], // Include all files in the project
+  "exclude": ["./_generated"] // Exclude the _generated directory
+}
