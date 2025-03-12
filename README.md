@@ -14,6 +14,7 @@ A feature-rich WhatsApp clone enhanced with AI capabilities, integrating **GPT**
 ✅ **Cloud Storage** – Store images & videos using Convex.  
 
 ## **Tech Stack**  
+- **JavaScript** – Core programming language.
 - **Next.js** – Framework for seamless frontend & backend.  
 - **Convex** – Real-time database and cloud functions.  
 - **ShadCN & Tailwind CSS** – Modern UI design.  
